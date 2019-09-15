@@ -37,7 +37,7 @@ namespace BusinessOrderService
             app.UseCors(p => p.WithOrigins("http://localhost:4200")
                 .AllowAnyOrigin());
 
-            app.UseHttpsRedirection();
+            //app.UseHttpsRedirection();
             app.UseMvc();
         }
     }
