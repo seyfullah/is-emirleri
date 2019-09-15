@@ -1,0 +1,17 @@
+e:\Google Drive\is-emirleri\BusinessOrderServiceTest\bin\Debug\netcoreapp2.2\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+e:\Google Drive\is-emirleri\BusinessOrderServiceTest\bin\Debug\netcoreapp2.2\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+e:\Google Drive\is-emirleri\BusinessOrderServiceTest\bin\Debug\netcoreapp2.2\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+e:\Google Drive\is-emirleri\BusinessOrderServiceTest\bin\Debug\netcoreapp2.2\BusinessOrderServiceTest.deps.json
+e:\Google Drive\is-emirleri\BusinessOrderServiceTest\bin\Debug\netcoreapp2.2\BusinessOrderServiceTest.runtimeconfig.json
+e:\Google Drive\is-emirleri\BusinessOrderServiceTest\bin\Debug\netcoreapp2.2\BusinessOrderServiceTest.runtimeconfig.dev.json
+e:\Google Drive\is-emirleri\BusinessOrderServiceTest\bin\Debug\netcoreapp2.2\BusinessOrderServiceTest.dll
+e:\Google Drive\is-emirleri\BusinessOrderServiceTest\bin\Debug\netcoreapp2.2\BusinessOrderServiceTest.pdb
+e:\Google Drive\is-emirleri\BusinessOrderServiceTest\bin\Debug\netcoreapp2.2\BusinessOrderService.dll
+e:\Google Drive\is-emirleri\BusinessOrderServiceTest\bin\Debug\netcoreapp2.2\BusinessOrderService.pdb
+e:\Google Drive\is-emirleri\BusinessOrderServiceTest\obj\Debug\netcoreapp2.2\BusinessOrderServiceTest.csprojAssemblyReference.cache
+e:\Google Drive\is-emirleri\BusinessOrderServiceTest\obj\Debug\netcoreapp2.2\BusinessOrderServiceTest.csproj.CoreCompileInputs.cache
+e:\Google Drive\is-emirleri\BusinessOrderServiceTest\obj\Debug\netcoreapp2.2\BusinessOrderServiceTest.AssemblyInfoInputs.cache
+e:\Google Drive\is-emirleri\BusinessOrderServiceTest\obj\Debug\netcoreapp2.2\BusinessOrderServiceTest.AssemblyInfo.cs
+e:\Google Drive\is-emirleri\BusinessOrderServiceTest\obj\Debug\netcoreapp2.2\BusinessOrderServiceTest.csproj.CopyComplete
+e:\Google Drive\is-emirleri\BusinessOrderServiceTest\obj\Debug\netcoreapp2.2\BusinessOrderServiceTest.dll
+e:\Google Drive\is-emirleri\BusinessOrderServiceTest\obj\Debug\netcoreapp2.2\BusinessOrderServiceTest.pdb
