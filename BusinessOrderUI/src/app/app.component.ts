@@ -10,7 +10,7 @@ import { BusinessOrderService } from './business-order/business-order.service';
 export class AppComponent implements OnInit {
 
   title = 'İş Emirleri Raporu';
-  displayedColumns: string[];// = ['position', 'name', 'weight', 'symbol'];
+  displayedColumns: string[] = [];// = ['position', 'name', 'weight', 'symbol'];
   dataSource = ELEMENT_DATA;
 
   constructor(private businessOrderService: BusinessOrderService) { }
@@ -23,6 +23,7 @@ export class AppComponent implements OnInit {
         JSON.parse(data)[0].forEach(element => {
           this.displayedColumns.push(element);
         });
+        this.dataSource = JSON.parse(data);
         console.log(data);
       });
   }
