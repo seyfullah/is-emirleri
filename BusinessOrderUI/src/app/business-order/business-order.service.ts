@@ -8,16 +8,24 @@ import { catchError, retry } from 'rxjs/operators';
 @Injectable()
 export class BusinessOrderService {
   constructor(private http: HttpClient) { }
-  businessOrdersUrl = 'http://localhost:5000/api/businessorders';
+  //businessOrdersUrl = 'http://localhost:5000/api/businessorders';
+  businessOrdersTableUrl = 'http://localhost:5000/api/businessorders/table';
 
-  public getBusinessOrderReport(): Observable<string> {
+  // public getBusinessOrderReport(): Observable<string> {
+  //   const headers = new HttpHeaders({ 'Content-Type': 'text/plain' });
+  //   return this.http.get(this.businessOrdersUrl, { responseType: 'text', headers })
+  //     .pipe(
+  //       catchError(this.handleError)
+  //     );
+  // }
+
+  public getBusinessOrderReportTable(): Observable<string> {
     const headers = new HttpHeaders({ 'Content-Type': 'text/plain' });
-    return this.http.get(this.businessOrdersUrl, { responseType: 'text', headers })
+    return this.http.get(this.businessOrdersTableUrl, { responseType: 'text', headers })
       .pipe(
         catchError(this.handleError)
       );
   }
-
   private handleError(error: HttpErrorResponse) {
     if (error.error instanceof ErrorEvent) {
       // A client-side or network error occurred. Handle it accordingly.

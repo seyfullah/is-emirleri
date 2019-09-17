@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Data;
 using Microsoft.AspNetCore.Mvc;
 
 namespace BusinessOrderService.Controllers
@@ -7,13 +8,24 @@ namespace BusinessOrderService.Controllers
     [ApiController]
     public class BusinessOrdersController : ControllerBase
     {
-        // GET api/businessorders
-        [HttpGet]
-        public ActionResult<IEnumerable<IEnumerable<string>>> Get()
+        // // GET api/businessorders
+        // [HttpGet]
+        // public ActionResult<IEnumerable<IEnumerable<string>>> Get()
+        // {
+        //     BusinessOrdersService service = new BusinessOrdersService();
+        //     var businessOrderReports = service.GetBusinessOrderReports();
+        //     return businessOrderReports;
+        // }
+
+        // GET api/businessorders/table
+        [HttpGet("/api/businessorders/table")]
+        public ActionResult<DataTable> GetBusinessOrderReportsDataTable()
         {
             BusinessOrdersService service = new BusinessOrdersService();
-            var businessOrderReports = service.GetBusinessOrderReports();
-            return businessOrderReports;
+            var table = service.GetBusinessOrderReportsDataTable();
+            return table;
         }
+
+        
     }
 }
